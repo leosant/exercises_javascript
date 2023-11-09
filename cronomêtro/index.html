@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu timer</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1 class="title">Meu timer</h1>
+            <main id="timerMain">
+                <h1 class="timer" id="hours">00</h1>
+                <h1 class="timer">:</h1>
+                <h1 class="timer" id="minutes">00</h1>
+                <h1 class="timer">:</h1>
+                <h1 class="timer" id="seconds">00</h1>
+            </main>
+            <footer>
+                <button onclick="iniciar()">Iniciar</button>
+                <button onclick="pausar()">Pausar</button>
+                <button onclick="zerar()">Zerar</button>
+            </footer>
+        </section>
+    </main>
+    <script src="./assets/js/mainRefactor.js"></script>
+</body>
+</html>
